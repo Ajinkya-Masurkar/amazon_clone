@@ -1,0 +1,264 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar{
+    background-color: #0F1111;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.nav-logo{
+    background-image: url(logo2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 130px;
+    margin-left: 20px;
+}
+
+.logo{
+    height: 50px;
+    width: 130px;
+    border: 1.5px solid transparent;
+    
+}
+
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover{
+    border: 2px solid white;
+}   
+
+.Ajinkya{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+
+.Mumbai{
+    color: #ffffff;
+    font-size: 1rem;
+    margin-left: 5px;
+}
+
+.address-icon{
+    display: flex;
+    align-items: center;
+}
+
+/**Seach Bar */
+
+.nav-search{
+    display: flex;
+    width: 615px;
+    height: 40px;
+    background-color: pink;
+    border-radius: 4px;
+    justify-content: space-evenly;
+}
+
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+    color: #0F1111;
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon{
+    background-color: #ffa41c;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius:4px;
+    border-bottom-right-radius:4px;
+    font-size: 1.2rem;
+    color: #0F1111;
+}
+
+.fa-solid.fa-magnifying-glass{
+    color: #0F1111;
+}
+
+.nav-search:hover{
+    border: 2px solid #ffa41c;
+}
+
+
+/* Hello Section */
+
+
+span{
+    font-size: 0.7rem;
+}
+
+.Hello-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* Cart Section */
+
+.nav-cart i{
+    font-size: 30px;
+}
+
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/*panel section */
+
+.panel{
+    height: 40px;
+    background-color: #232F3E;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-ops p{
+    display: inline;
+    margin-left: 10px;
+}
+
+.panel-ops{
+   width: 90%;
+   font-size: 0.85rem;
+}
+
+.panel-all{
+    font-weight: 700;
+}
+
+/*main-section*/
+
+.main-section{
+    background-image: url(main-img.jpg);
+    background-size: cover;
+    height: 300px;
+}
+
+
+/*shop-section*/
+
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(67, 211, 211);
+}
+
+.box{
+    height: 400px;
+    width: 21%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+    
+}
+
+.box-img{
+    background-image: url(box-1-img.jpg);
+}
+
+.box-content{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/*footer*/
+
+footer{
+    margin-top: 15px;
+}
+
+.foot-panel1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+.foot-panel2{
+    background-color: #232F3E;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul{
+   margin-top: 30px;
+}
+
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+
+ul p{
+    font-weight: 700;
+}
+
+.foot-panel3{
+    background-color: #232F3E;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo2{
+    height: 50px;
+    width: 130px;
+    border: 1.5px solid transparent;
+    background-image: url(logo2.png);
+    background-size: contain;
+    margin-bottom: 20px;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-panel4{
+    background-color: #0F1111;
+    font: white;
+    height: 80px;
+    text-align: center;
+    font-size: 0.75rem;
+}
+
+.pages{
+     padding-top: 25px;
+}
+
+.copyright{
+     padding-top: 5px;
+}
